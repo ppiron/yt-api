@@ -2,7 +2,7 @@ let inititalCount = document.querySelector(".count").textContent;
 console.log(inititalCount);
 
 window.setTimeout(async function checkCount() {
-    let res = await fetch("/statistics");
+    let res = await fetch("/.netlify/functions/statistics");
     let statistics = await res.json();
     let newCount = statistics.count;
     console.log(newCount);
