@@ -1,7 +1,7 @@
 const pug = require("pug");
 const fs = require("fs");
 // const path = require("path");
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
+// process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
 const getSubscribers = require("./utils.js");
 let count;
