@@ -2,5 +2,6 @@
 command = "node ./build.js"
 publish = "public"
 [dev]
+command = "npm run start"
+targetPort = 3000
 functions = "netlify-functions"
-functionsPort = 7000

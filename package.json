@@ -13,5 +13,8 @@
     "nodemon": "^2.0.12",
     "point-of-view": "^4.15.2",
     "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^7.0.2"
   }
 }
